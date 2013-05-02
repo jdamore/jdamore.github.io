@@ -23,8 +23,15 @@ properties of those styles to fit to the look of your site.
             font-family: "Patrick Hand", "Comic Sans", "Chalkboard", cursive;
         }
 
+        .logo {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+	      z-index: 1000;
+        }
+
         .main-container {
-            margin-left: 20px;
+            margin-left: 40px;
             background: black url("https://internetorder.dominos.com.au/estorebeta/Resources/Images/bg-main-940x1200.jpg") no-repeat;
         }
 
@@ -36,15 +43,15 @@ properties of those styles to fit to the look of your site.
 
 <body>
 
-<div class="main-container">
-    <div class="logo">
-        <img src="https://internetorder.dominos.com.au/estorebeta/Resources/Images/dominos-logo.png" alt="Dominos Logo">
+    <div class="main-container">
+        <div class="logo">
+            <img src="https://internetorder.dominos.com.au/estorebeta/Resources/Images/dominos-logo.png" alt="Dominos Logo">
+        </div>
+        <h1> Dominos Pizza Australia</h1>
+        <div class="ogone-container">
+            $$$PAYMENT ZONE$$$
+        </div>
     </div>
-    <h1> Dominos Pizza Australia</h1>
-    <div class="ogone-container">
-        $$$PAYMENT ZONE$$$
-    </div>
-</div>
 </body>
 
 </html>
